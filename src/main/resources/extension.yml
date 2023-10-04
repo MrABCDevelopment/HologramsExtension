@@ -1,5 +1,5 @@
-name: HologramsExtension
-version: 1.0.0
-main: me.dreamdevs.github.hologramsextension.HologramsExtensionMain
+name: ${project.artifactId}
+version: ${project.version}
+main: me.dreamdevs.hologramsextension.HologramsExtensionMain
 author: DreamDevs
 icon: ARMOR_STAND
