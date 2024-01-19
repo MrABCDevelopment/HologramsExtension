@@ -1,5 +1,0 @@
-name: ${project.artifactId}
-version: ${project.version}
-main: me.dreamdevs.hologramsextension.HologramsExtensionMain
-author: DreamDevs
-icon: ARMOR_STAND

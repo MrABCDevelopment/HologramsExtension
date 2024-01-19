@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5537d6e5-1421-480e-8475-09c1e42119df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/HologramsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/me/dreamdevs/hologramsextension/api/HologramHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_18_R2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_18_R2/src/main/java/me/dreamdevs/hologramsextension/versions/v1_18_R2/Hologram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_19_R3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_19_R3/src/main/java/me/dreamdevs/hologramsextension/versions/v1_19_R3/Hologram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_20_R3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v1_20_R3/src/main/java/me/dreamdevs/hologramsextension/versions/v1_20_R3/Hologram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/434f0bdcb7e7b942e5f3745b833fdea4c5e4d458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed221ba032b35fd3086623b0ab7bbdcc17ac5389" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/dreamdevs/github/hologramsextension/HologramsExtensionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/HologramsExtensionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/dreamdevs/github/hologramsextension/listeners/PlayerInteractChestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/listeners/PlayerInteractChestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/extension.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/extension.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/HologramsExtensionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/me/dreamdevs/hologramsextension/HologramsExtensionMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/HologramsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/me/dreamdevs/hologramsextension/HologramsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dreamdevs/hologramsextension/listeners/PlayerInteractChestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/me/dreamdevs/hologramsextension/listeners/PlayerInteractChestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/extension.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/extension.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,16 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14201763",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-16&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14201763&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\HologramsExtension\core\src\main\resources" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
